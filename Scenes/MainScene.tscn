@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2vqgmfqfb5qn"]
+
+[ext_resource type="Script" path="res://Scripts/LoginRequest.cs" id="1_yxs1f"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yxs1f")
+clientId = "55568490f9bb48ae9cee5dd604882b59"
+clientSecret = "24c87e854dfc4c72aeaa9985aa03f4f0"
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
